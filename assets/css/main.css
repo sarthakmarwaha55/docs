@@ -2766,7 +2766,7 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 40vh;
+			height: 35vh;
 			max-height: 30em;
 			min-height: 23em;
 			overflow: hidden;
