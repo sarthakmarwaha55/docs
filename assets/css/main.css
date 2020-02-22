@@ -2583,7 +2583,7 @@ input, select, textarea {
 		input[type="button"].fit,
 		button.fit,
 		.button.fit {
-			width: 100%;
+			
 		}
 
 		input[type="submit"].small,
