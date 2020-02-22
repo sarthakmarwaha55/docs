@@ -214,12 +214,12 @@
 			}
 		}
 
-		@include breakpoint('<=xsmall') {
-			.logo {
-				span {
-					display: none;
-				}
-			}
+		// @include breakpoint('<=xsmall') {
+		// 	.logo {
+		// 		span {
+		// 			display: none;
+		// 		}
+		// 	}
 
 			nav {
 				a {
