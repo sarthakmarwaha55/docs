@@ -2611,6 +2611,7 @@ input, select, textarea {
 		button.next,
 		.button.next {
 			padding-right: 4.5em;
+			padding-bottom: 1em;
 			position: relative;
 		}
 
@@ -2678,7 +2679,6 @@ input, select, textarea {
 				button.next,
 				.button.next {
 					padding-right: 5em;
-					padding-bottom: 5em;
 				}
 
 			}
