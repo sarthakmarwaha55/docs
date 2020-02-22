@@ -2678,12 +2678,22 @@ input, select, textarea {
 				button.next,
 				.button.next {
 					padding-right: 5em;
-					margin-bottom: 1em;
 				}
 
 			}
 
-			
+			@media screen and (max-width: 900px) {
+
+				input[type="submit"].next,
+				input[type="reset"].next,
+				input[type="button"].next,
+				button.next,
+				.button.next {
+					margin-bottom: 1em;
+
+				}
+
+			}
 
 		input[type="submit"].primary,
 		input[type="reset"].primary,
