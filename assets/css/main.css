@@ -2201,6 +2201,11 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+		
+			.image.fit.half{
+				width: 70%;
+				margin: auto;
+			}	
 
 		.image.main {
 			display: block;
@@ -2237,6 +2242,11 @@ input, select, textarea {
 	}
 
 		ol li {
+			
+			padding-left: 0.25em;
+		}
+		ol li.bullet {
+			list-style: lower-roman;
 			padding-left: 0.25em;
 		}
 
@@ -2247,8 +2257,16 @@ input, select, textarea {
 	}
 
 		ul li {
+			
 			padding-left: 0.5em;
 		}
+
+		ul li.bullet {
+			list-style: square;
+			padding-left: 0.5em;
+		}
+
+
 
 		ul.alt {
 			list-style: none;
@@ -3982,3 +4000,8 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+.caption{
+	text-align: center;
+	color: darkgray;
+}
